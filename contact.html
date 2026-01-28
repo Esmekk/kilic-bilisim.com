@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İletişim – Kılıç Bilişim</title>
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="brand" href="index.html">Kılıç Bilişim</a>
+      <div class="navlinks">
+        <a href="index.html">Anasayfa</a>
+        <a href="services.html">Hizmetler</a>
+        <a href="products.html">Ürünler</a>
+        <a href="projects.html">Projelerimiz</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="section">
+      <h1>İletişim</h1>
+      <p class="muted">
+        Projeleriniz, teklif talepleriniz veya teknik sorularınız için formu doldurabilir ya da doğrudan bizimle iletişime geçebilirsiniz.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>İletişim Bilgileri</h3>
+          <p>Telefon: <strong>+90 555 099 3506</strong></p>
+          <p>Email: <strong>info@kilicbilisim.com</strong></p>
+          <p>Adres: ANKARA, TÜRKİYE</p>
+          <p class="muted small">
+            Görüşme talebi, keşif veya proje dosyalarınızı iletmek için e-posta adresimizi kullanabilirsiniz.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Teklif / Mesaj Formu</h3>
+          <form class="contact-form" action="mailto:info@kilicbilisim.com" method="post" enctype="text/plain">
+            <div class="form-field">
+              <label for="name">Adınız Soyadınız</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Mesajınız</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Gönder</button>
+          </form>
+          <p class="muted small">
+            Form, varsayılan mail uygulamanız üzerinden bilgi iletmenizi sağlar. Dilerseniz doğrudan <strong>info@kilicbilisim.com</strong> adresine de yazabilirsiniz.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Kılıç Bilişim – Zayıf akım sistemleri, malzeme satışı, devreye alma.</p>
+  </footer>
+</body>
+</html>
+
