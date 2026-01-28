@@ -1,0 +1,62 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Kılıç Bilişim</PageTitle>
+
+<section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-content">
+            <h1>Kılıç Bilişim</h1>
+            <p class="lead">Zayıf akım sistemleri — proje, kurulum, devreye alma ve malzeme satışı.</p>
+            <div class="actions">
+                <a class="btn" href="services">Detaylı Hizmetler</a>
+                <a class="btn outline" href="contact">Teklif Al</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="@($"{NavigationManager.BaseUri}images/fire.svg")" alt="Yangın Sistemleri" width="360" height="270" loading="lazy" decoding="async" />
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Hizmetlerimiz</h2>
+    <ul>
+        <li>Güvenlik kameraları (CCTV)</li>
+        <li>Yangın algılama ve ihbar sistemleri</li>
+        <li>Geçiş kontrol ve alarm sistemleri</li>
+        <li>Ağ altyapısı ve kablolama</li>
+        <li>Devreye alma &amp; bakım</li>
+    </ul>
+</section>
+
+<section class="actions">
+    <a class="btn" href="services">Detaylı Hizmetler</a>
+    <a class="btn outline" href="contact">Bize Ulaşın</a>
+</section>
+
+<section>
+    <h2>Öne Çıkan Sistemler</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="@($"{NavigationManager.BaseUri}images/fire.svg")" alt="Yangın Sistemleri" width="140" height="140" loading="lazy" decoding="async" />
+            <h4>Yangın Algılama</h4>
+            <p>Detektör, panel ve devreye alma hizmetleri.</p>
+        </div>
+        <div class="service-card">
+            <img src="@($"{NavigationManager.BaseUri}images/data.svg")" alt="Data &amp; Network" width="140" height="140" loading="lazy" decoding="async" />
+            <h4>Data &amp; Network</h4>
+            <p>Kablolama, switch ve altyapı çözümleri.</p>
+        </div>
+        <div class="service-card">
+            <img src="@($"{NavigationManager.BaseUri}images/fiber.svg")" alt="Fiber Çözümleri" width="140" height="140" loading="lazy" decoding="async" />
+            <h4>Fiber</h4>
+            <p>Fiber sonlandırma ve taşıma altyapısı.</p>
+        </div>
+        <div class="service-card">
+            <img src="@($"{NavigationManager.BaseUri}images/tv.svg")" alt="TV Sistemleri" width="140" height="140" loading="lazy" decoding="async" />
+            <h4>TV &amp; Görüntü</h4>
+            <p>IP/Analog yayın ve görüntüleme çözümleri.</p>
+        </div>
+    </div>
+</section>

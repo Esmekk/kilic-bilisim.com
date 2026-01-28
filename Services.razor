@@ -1,0 +1,81 @@
+@page "/services"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Hizmetler</PageTitle>
+
+<h1>Hizmetler</h1>
+
+<p>Projelendirme, malzeme temini, kurulum, test ve devreye alma:</p>
+
+<ul>
+    <li><strong>Güvenlik Kameralarý:</strong> Tasarým, kurulum, NVR/DVR çözümleri ve görüntüleme sistemleri.</li>
+    <li><strong>Yangýn Algýlama:</strong> Dedektör, pano entegrasyonu, test ve devreye alma.</li>
+    <li><strong>Geçiþ Kontrol:</strong> Kartlý/biometrik sistem kurulumu, kullanýcý yönetimi ve entegrasyon.</li>
+    <li><strong>Að Altyapýsý & Data:</strong> Kablolama (UTP/FTP), switch/rack kurulumu, veri odasý altyapýlarý.</li>
+    <li><strong>Fiber Çözümleri:</strong> Sonlandýrma, muf, OM/OS serisi ürün tedariki ve kurulumu.</li>
+    <li><strong>TV & Yayýn Sistemleri:</strong> IP/Analog yayýn çözümleri, daðýtým ve son kullanýcý ekipmanlarý.</li>
+    <li><strong>Devreye Alma & Bakým:</strong> Sistem testleri, raporlama, periyodik bakým ve arýza müdahalesi.</li>
+</ul>
+
+<section>
+    <h2>Öne Çýkan Sistemler</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="/images/fire.svg" alt="Yangýn Sistemleri" width="140" height="140" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+            <h4>Yangýn Algýlama</h4>
+            <p>Dedektör, sensör, kontrol panosu ve devreye alma hizmetleri.</p>
+        </div>
+        <div class="service-card">
+            <img src="/images/data.svg" alt="Data & Network" width="140" height="140" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+            <h4>Data & Network</h4>
+            <p>Kablolama, patch panel, switch ve network tasarýmý.</p>
+        </div>
+        <div class="service-card">
+            <img src="/images/fiber.svg" alt="Fiber Çözümleri" width="140" height="140" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+            <h4>Fiber</h4>
+            <p>Fiber sonlandýrma, test ve taþýma altyapýsý.</p>
+        </div>
+        <div class="service-card">
+            <img src="/images/tv.svg" alt="TV Sistemleri" width="140" height="140" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+            <h4>TV & Görüntü</h4>
+            <p>IP/Analog yayýn ve görüntüleme çözümleri.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-short">
+    <h3>Ýletiþim</h3>
+    <p>Hizmet ve fiyat bilgisi için bizi arayýn: <strong>0555 099 3506</strong></p>
+</section>
+
+<section>
+    <h2>Projeler &amp; Galeri</h2>
+    <p>Bitirdiðimiz bazý kurulum ve ürün örnekleri. Küçük resme týklayarak tam boy görseli görüntüleyebilirsiniz.</p>
+    <div class="gallery-grid">
+        <a class="gallery-item" href="/images/gallery/yangin-1.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/yangin-1.jpg" alt="Yangýn alarm kablolamasý" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/yangin-2.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/yangin-2.jpg" alt="Yangýn dedektörleri ve pano" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/panel-1.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/panel-1.jpg" alt="Daðýtým panosu" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/patchpanel.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/patchpanel.jpg" alt="Patch panel ve kablolama" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/splitter.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/splitter.jpg" alt="TV daðýtým splitter" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/cat6.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/cat6.jpg" alt="CAT6 keystone ve baðlantý" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/fiber-splice.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/fiber-splice.jpg" alt="Fiber ek yeri ve muf" loading="lazy" />
+        </a>
+        <a class="gallery-item" href="/images/gallery/installation-1.jpg" target="_blank" rel="noopener">
+            <img src="/images/gallery/installation-1.jpg" alt="Kablo düzeni ve rack" loading="lazy" />
+        </a>
+    </div>
+    <p class="muted">Not: Görselleri henüz yüklemediyseniz, masaüstünüzdeki `Pictures` klasöründen dosyalarý proje dizinine kopyalayýn: <code>kýlýcbilisim/wwwroot/images/gallery/</code>. Ýsimleri eþleþtirin veya src'leri güncelleyin.</p>
+</section>
